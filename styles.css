@@ -154,7 +154,7 @@ ABOUT me
 .about-me__links {
   animation: fade-up 650ms 800ms backwards;
   padding: 30px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .about-me__img--container {
