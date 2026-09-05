@@ -31,7 +31,7 @@ li {
 }
 
 .flex-1 {
-  flex:1;
+  flex: 1;
 }
 
 .row {
@@ -40,7 +40,7 @@ li {
   margin: 0 auto;
 }
 
-.text-purple {
+.text--purple {
   color:#6030b1;
 }
 
@@ -135,11 +135,11 @@ ABOUT me
   padding: 8px;
 }
 
-.about--me__info--title {
+.about-me__info--title {
   margin-bottom: 16px;
 }
 
-.about--me__info-para {
+.about-me__info-para {
   font-size: 20px;
   margin-bottom: 25px;
 }
@@ -161,12 +161,15 @@ ABOUT me
   flex: 1;
   align-items: center;
   justify-content: center;
-  display: flex;
   flex-direction: column;
+  display: flex;
+
 } 
 
 .about-me__img  {
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 
