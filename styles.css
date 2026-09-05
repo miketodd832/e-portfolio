@@ -152,7 +152,7 @@ ABOUT me
   flex-direction: column;
   align-items: center;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0  120px;
   text-align: center;
 }
 
@@ -187,7 +187,7 @@ ABOUT me
   font-size: 25px;
   color:#242424;
   text-decoration: none;
-  padding: 0  16px;
+  padding: 0  20px;
 }
 
 .about-me__links {
@@ -260,8 +260,81 @@ TECH - STACK
   transform: scale(1);
 }
 
+/*
+
+PROJECTS
+
+*/
+
 .project__img {
   width: 100%;
+  transition: all 500ms ease;
+}
+
+.project__wrapper {
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.project__wrapper:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+
+}
+
+.project:hover .project__img {
+  transform: scale (1.07);
+  filter: blur(5px);
+}
+
+.project__list {
+  padding-top: 40px;
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 90px;
+  max-width: 550px;
+  z-index: 3;
+}
+
+.project__description--title {
+  font-size: 40px;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  color: #fff;
+}
+
+.project__description--title,
+.project__description--sub-title,
+.project__description--para,
+.project__description--link {
+  text-align: left;
+  color: #fff;
 }
 
 
