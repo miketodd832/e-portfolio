@@ -194,6 +194,7 @@ TECH - STACK
   width: 25%;
   display: flex;
   justify-content: center;
+  position: relative;
   /* position */
 }
 
@@ -234,7 +235,7 @@ TECH - STACK
   transform: scale(1);
 }
 
-.project__image {
+.project__img {
   width: 100%;
 }
 
