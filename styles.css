@@ -100,11 +100,11 @@ nav {
 
 .nav__link--list {
   display: flex;
-}
+  }
 
 .nav__link--anchor {
   margin: 0 12px;
-  color: #242424;
+  color: #070202;
   text-decoration: none;
   font-weight: 700;
 }
@@ -266,6 +266,10 @@ PROJECTS
 
 */
 
+.project {
+  margin-bottom: 135px;
+}
+
 .project__img {
   width: 100%;
   transition: all 500ms ease;
@@ -276,7 +280,7 @@ PROJECTS
   border-radius: 20px;
   overflow: hidden;
   position: relative;
-
+  display: flex;
 }
 
 .project__wrapper:before {
@@ -302,6 +306,10 @@ PROJECTS
   filter: blur(5px);
 }
 
+.project:hover .project__description {
+  opacity: 1;
+}
+
 .project__list {
   padding-top: 40px;
 }
@@ -313,6 +321,8 @@ PROJECTS
   left: 90px;
   max-width: 550px;
   z-index: 3;
+  opacity: 0;
+  transition: transform 450ms, opacity 300ms;
 }
 
 .project__description--title {
