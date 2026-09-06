@@ -336,7 +336,6 @@ PROJECTS
 .project__description--link {
   font-size: 20px;
   margin-right: 16px;
-  color: #fff;
 }
 
 .project__description--title,
@@ -347,4 +346,26 @@ PROJECTS
   color: #fff;
 }
 
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+}
+
+.footer__row {
+  padding: 8% 0;
+}
+
+.footer__logo--img {
+  width: 70px;
+  height: 70px;
+}
+
+.footer__copyright {
+  color: white;
+}
 
