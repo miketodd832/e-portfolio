@@ -378,8 +378,8 @@ footer {
   height: 70px;
 }
 
-.footer__social--link
-.footer__copyright
+.footer__social--link,
+.footer__copyright,
 .footer__logo--popper {
   color:#fff
 }
