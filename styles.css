@@ -406,8 +406,8 @@ footer {
 
 .footer__anchor:hover 
 .footer__logo--popper {
-  transform: translate(60px);
-  position: relative;
+  transform: translateX(60px);
+  opacity: 1;
 }
 
 .footer__logo--popper {
