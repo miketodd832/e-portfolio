@@ -254,7 +254,7 @@ ABOUT me
   animation: animate 1200ms 800ms backwards;
 }
 
-@keyframes wave {
+@keyframes fade-in {
   0% {
     opacity: 0;
 
@@ -265,9 +265,9 @@ ABOUT me
 }
 
 .wave {
-  animation: hand-wave 500ms infinite;
   display: inline-block;
-}
+  animation: animate-wave  500ms infinite ease-in-out;
+  }
 
 @keyframes animate-wave {
   0% {
